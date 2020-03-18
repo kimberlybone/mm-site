@@ -1,4 +1,37 @@
+/* Styling for all Main Components */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .navbar {
-  border-bottom: 1px solid;
+  border: 1px solid;
   margin: 20px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
 }
