@@ -6,39 +6,53 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 .navbar {
-  border: 1px solid;
-  margin: 20px;
+  margin: 10px;
   font-size: 18px;
-  padding-bottom: 10px;
+}
+
+.nav-div {
   display: flex;
-  justify-content: center;
-  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
 }
 
 .main-nav {
   list-style-type: none;
-  display: flex;
-  margin-left: 950px;
 }
 
 .main-nav li {
-  text-align: center;
-  margin: 15px auto;
+  /* margin: 15px auto; */
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav-links,
 .logo {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
-  display: inline-block;
   font-size: 22px;
   margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
   font-family: 'Great Vibes', cursive;
+}
+
+.nav-contact {
+  border-radius: 14px;
+  background-color: #b48c36;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-contact:hover {
+
 }

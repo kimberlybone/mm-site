@@ -3,23 +3,23 @@ import '../MainComponents.css'
 
 function Navbar() {
   return (
-    <nav className='navbar'>
+    <div className='nav-div'>
       <a href='#' class='logo'> Mocha Moves </a>
-        <ul class='main-nav'>
-          <li>
-            <a href='#' class='nav-links'>Youtube</a>
-          </li>
-          <li>
-            <a href='#' class='nav-links'>Instagram</a>
-          </li>
-          <li>
-            <a href='#' class='nav-links'>About</a>
-          </li>
-          <li>
-            <a href='#' class='nav-links'>Contact</a>
-          </li>
-        </ul>
-    </nav>
+      <nav className='navbar'>
+          <ul class='main-nav'>
+            <li>
+              <a href='#' class='nav-links'>Youtube</a>
+            </li>
+            <li>
+              <a href='#' class='nav-links'>Instagram</a>
+            </li>
+            <li>
+              <a href='#' class='nav-links'>About</a>
+            </li>
+            <a href='#'><button class='nav-contact'>Contact</button></a>
+          </ul>
+      </nav>
+    </div>
   )
 }
 
