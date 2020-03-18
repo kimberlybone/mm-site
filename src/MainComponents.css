@@ -4,17 +4,22 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar {
   border: 1px solid;
   margin: 20px;
   font-size: 18px;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
 }
 
 .main-nav {
   list-style-type: none;
   display: flex;
+  margin-left: 950px;
 }
 
 .main-nav li {
@@ -26,6 +31,7 @@
 .logo {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -34,4 +40,5 @@
   margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
+  font-family: 'Great Vibes', cursive;
 }
