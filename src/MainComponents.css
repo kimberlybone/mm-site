@@ -69,7 +69,7 @@
   filter: blur(1px);
 }
 
-.mm-body-head {
+.mm-home-head {
   /* font-family: 'Great Vibes', cursive; */
   color: white;
   position: absolute;
@@ -80,7 +80,12 @@
   font-weight: bolder;
 }
 
-.mm-body-head2 {
+.home-header {
+  box-shadow: 0 3px 6px -5px #F5F5F5;
+  margin-bottom: 100px;
+}
+
+.mm-home-head2 {
   color: white;
   position: absolute;
   top: 600px;
@@ -90,8 +95,31 @@
   font-weight: bolder;
 }
 
-.mm-body-num {
+.mm-home-num {
   color: #b48c36;
   /* font-family: 'Great Vibes', cursive; */
   font-size: 120px;
+}
+
+.mm-home-gifs {
+  height: 400px;
+  width: auto;
+  margin: 60px auto;
+}
+
+.mm-home-name {
+  color: #b48c36;
+  font-size: 30px;
+  /* position: absolute; */
+  /* top: auto; */
+}
+
+.mm-home-story {
+  width: 100px;
+  height: auto;
+}
+
+.home-stories {
+  display: flex;
+  flex-wrap: wrap;
 }

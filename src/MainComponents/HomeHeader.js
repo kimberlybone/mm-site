@@ -3,10 +3,10 @@ import '../MainComponents.css'
 
 function HomeHeader() {
   return(
-    <div>
-    <img className="mm-image" src="IMG_1021.JPG" alt="mm" />
-    <div class="mm-body-head"><text className="mm-body-num">6</text> Black Women from </div>
-    <div class="mm-body-head2"><text className="mm-body-num">6</text> Different Walks of Life</div>
+    <div className="home-header">
+      <img className="mm-image" src="IMG_1021.JPG" alt="mm" />
+      <div class="mm-home-head"><text className="mm-home-num">6</text> Black Women from </div>
+      <div class="mm-home-head2"><text className="mm-home-num">6</text> Different Walks of Life</div>
     </div>
   )
 }

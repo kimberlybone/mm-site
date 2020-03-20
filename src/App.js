@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './MainComponents/Navbar'
 import HomeHeader from './MainComponents/HomeHeader'
+import OurStories from './MainComponents/OurStories'
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       <div className="mm-body">
         <HomeHeader></HomeHeader>
+        <OurStories></OurStories>
       </div>
     </div>
   );
