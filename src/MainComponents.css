@@ -17,6 +17,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 2%;
+  box-shadow: 0 8px 6px -6px #F5F5F5;
+  /* border-bottom: 0.1px solid;
+  border-bottom-color: white;
+  border-bottom-width: thin; */
 }
 
 .main-nav {
@@ -55,4 +59,10 @@
 
 .nav-contact:hover {
 
+}
+
+.mm-image {
+  max-width: 100%;
+  height: auto;
+  transform: rotate(180deg);
 }

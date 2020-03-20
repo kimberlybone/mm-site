@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      Mocha Moves Website
+      <div className="mm-body">
+        <img className="mm-image" src="IMG_1021.JPG" alt="mm" />
+      </div>
     </div>
   );
 }
