@@ -17,7 +17,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 2%;
-  box-shadow: 0 8px 6px -6px #F5F5F5;
+  box-shadow: 0 2px 8px -4px #F5F5F5;
   /* border-bottom: 0.1px solid;
   border-bottom-color: white;
   border-bottom-width: thin; */
@@ -65,4 +65,33 @@
   max-width: 100%;
   height: auto;
   transform: rotate(180deg);
+  opacity: 0.6;
+  filter: blur(1px);
+}
+
+.mm-body-head {
+  /* font-family: 'Great Vibes', cursive; */
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 16px;
+  width: 550px;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+.mm-body-head2 {
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 16px;
+  width: 550px;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+.mm-body-num {
+  color: #b48c36;
+  /* font-family: 'Great Vibes', cursive; */
+  font-size: 120px;
 }
