@@ -2,6 +2,7 @@ import React from 'react'
 import '../MainComponents.css'
 
 function OurStories() {
+  // create child component for individual stories with state
   return(
     <div className='home-stories'>
       <p className='mm-home-name'>Caci </p>
