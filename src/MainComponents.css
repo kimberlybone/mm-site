@@ -69,33 +69,35 @@
   filter: blur(1px);
 }
 
-.mm-home-head {
+.mm-home-head,
+.mm-home-head2 {
   /* font-family: 'Great Vibes', cursive; */
   color: white;
   position: absolute;
-  top: 90px;
-  left: 350px;
-  width: 550px;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  width: 50%;
+  margin: 0 auto;
   font-size: 75px;
   font-weight: bolder;
   text-align: center;
+}
+
+.mm-home-head {
+  top: 2%;
+}
+
+.mm-home-head2 {
+  top: 65%;
 }
 
 .home-header {
   box-shadow: 0 3px 6px -5px #F5F5F5;
   margin-bottom: 100px;
+  position: relative;
 }
 
-.mm-home-head2 {
-  color: white;
-  position: absolute;
-  top: 650px;
-  left: 350px;
-  width: 550px;
-  font-size: 75px;
-  font-weight: bolder;
-  text-align: center;
-}
 
 .mm-home-num {
   color: #b48c36;
