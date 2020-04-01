@@ -103,25 +103,8 @@
   font-size: 120px;
 }
 
-.mm-home-gifs {
-  height: 400px;
-  width: auto;
-  margin: 60px auto;
-}
-
-.mm-home-name {
-  color: #b48c36;
-  font-size: 30px;
-  /* position: absolute; */
-  /* top: auto; */
-}
-
-.mm-home-story {
-  width: 100px;
-  height: auto;
-}
-
 .home-stories {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mm-home-gifs {
+  height: 400px;
+  width: auto;
+  margin: 30px auto;
+}
+
+.mm-home-name {
+  color: #b48c36;
+  font-size: 30px;
+  text-align: center;
+  /* position: absolute; */
+  /* top: auto; */
+}
+
+.mm-home-intro {
+  font-family: 'Great Vibes', cursive;
+  color: #b48c36;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mm-home-bio {
+  /* display: block; */
+  width: 215px;
+  height: auto;
+  text-align: center;
+  margin-left: 15%;
+  line-height: 20pt;
+}
+
+.mm-home-story {
+  padding: 50px;
+}
