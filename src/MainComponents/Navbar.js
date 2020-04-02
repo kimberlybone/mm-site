@@ -1,22 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../MainComponents.css'
 
 function Navbar() {
   return (
     <div className='nav-div'>
-      <a href='#' class='logo'> Mocha Moves </a>
+      <a href='/' class='logo'> Mocha Moves </a>
       <nav className='navbar'>
           <ul class='main-nav'>
             <li>
-              <a href='#' class='nav-links'>Youtube</a>
+              <Link to='/youtube' class='nav-links'>Youtube</Link>
             </li>
             <li>
-              <a href='#' class='nav-links'>Instagram</a>
+              <Link to='/instagram' class='nav-links'>Instagram</Link>
             </li>
             <li>
-              <a href='#' class='nav-links'>About</a>
+              <Link to='/about' class='nav-links'>About</Link>
             </li>
-            <a href='#'><button class='nav-contact'>Contact</button></a>
+            <Link to='/contact'><button class='nav-contact'>Contact</button></Link>
           </ul>
       </nav>
     </div>
